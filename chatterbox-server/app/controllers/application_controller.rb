@@ -12,7 +12,6 @@ class ApplicationController < Sinatra::Base
       body: params[:body],
       username: params[:username]
     )
-  
     message.to_json
   end
 
